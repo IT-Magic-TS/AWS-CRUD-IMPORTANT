@@ -1,0 +1,91 @@
+{
+  "resource": "/product/{id}",
+  "path": "/product/14",
+  "httpMethod": "GET",
+  "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Cache-Control": "no-cache",
+      "Content-Type": "application/json",
+      "Host": "ybmikf19xc.execute-api.eu-west-2.amazonaws.com",
+      "Postman-Token": "f5af0bf3-6e06-4aff-9de3-984a3e502d4e",
+      "User-Agent": "PostmanRuntime/7.31.1",
+      "X-Amzn-Trace-Id": "Root=1-63fa4079-64e0ad0547fdc49a289161fb",
+      "X-Forwarded-For": "54.86.50.139",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+  },
+  "multiValueHeaders": {
+      "Accept": [
+          "*/*"
+      ],
+      "Accept-Encoding": [
+          "gzip, deflate, br"
+      ],
+      "Cache-Control": [
+          "no-cache"
+      ],
+      "Content-Type": [
+          "application/json"
+      ],
+      "Host": [
+          "ybmikf19xc.execute-api.eu-west-2.amazonaws.com"
+      ],
+      "Postman-Token": [
+          "f5af0bf3-6e06-4aff-9de3-984a3e502d4e"
+      ],
+      "User-Agent": [
+          "PostmanRuntime/7.31.1"
+      ],
+      "X-Amzn-Trace-Id": [
+          "Root=1-63fa4079-64e0ad0547fdc49a289161fb"
+      ],
+      "X-Forwarded-For": [
+          "54.86.50.139"
+      ],
+      "X-Forwarded-Port": [
+          "443"
+      ],
+      "X-Forwarded-Proto": [
+          "https"
+      ]
+  },
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "pathParameters": {
+      "id": "14"
+  },
+  "stageVariables": null,
+  "requestContext": {
+      "resourceId": "d6b3hf",
+      "resourcePath": "/product/{id}",
+      "httpMethod": "GET",
+      "extendedRequestId": "A58C_HcdrPEFo2w=",
+      "requestTime": "25/Feb/2023:17:08:09 +0000",
+      "path": "/prod/product/14",
+      "accountId": "176871122956",
+      "protocol": "HTTP/1.1",
+      "stage": "prod",
+      "domainPrefix": "ybmikf19xc",
+      "requestTimeEpoch": 1677344889258,
+      "requestId": "14547b7e-a736-4ed7-b60a-d972b950160b",
+      "identity": {
+          "cognitoIdentityPoolId": null,
+          "accountId": null,
+          "cognitoIdentityId": null,
+          "caller": null,
+          "sourceIp": "54.86.50.139",
+          "principalOrgId": null,
+          "accessKey": null,
+          "cognitoAuthenticationType": null,
+          "cognitoAuthenticationProvider": null,
+          "userArn": null,
+          "userAgent": "PostmanRuntime/7.31.1",
+          "user": null
+      },
+      "domainName": "ybmikf19xc.execute-api.eu-west-2.amazonaws.com",
+      "apiId": "ybmikf19xc"
+  },
+  "body": "{\n    \"id\": 1,\n    \"name\": \"IPhone\",\n    \"price\": 900 \n}",
+  "isBase64Encoded": false
+}
